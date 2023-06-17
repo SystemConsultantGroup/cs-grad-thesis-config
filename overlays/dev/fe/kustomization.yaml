@@ -10,4 +10,4 @@ resources:
 - ../../../base/fe
 images:
 - name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
-  newTag: dev2
+  newTag: dev3
