@@ -4,10 +4,10 @@ namespace: cs-grad-thesis
 namePrefix: dev-
 patchesStrategicMerge:
 - ingress.yaml
+- deployment.yaml
+- service.yaml
 resources:
 - ../../base
 images:
-- name: registry.scg.skku.ac.kr/cs-grad-thesis-be
-  newTag: "dev"
 - name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
   newTag: "dev"

@@ -8,19 +8,12 @@ metadata:
 spec:
   tls:
     - hosts:
-        - dev.cssys.scg.skku.ac.kr
+        - cssys.scg.skku.ac.kr
       secretName: cs-grad-thesis-tls
   rules:
-    - host: dev.cssys.scg.skku.ac.kr
+    - host: cssys.scg.skku.ac.kr
       http:
         paths:
-          - backend:
-              service:
-                name: be-service
-                port:
-                  number: 80
-            path: /v1
-            pathType: Prefix
           - backend:
               service:
                 name: fe-service
