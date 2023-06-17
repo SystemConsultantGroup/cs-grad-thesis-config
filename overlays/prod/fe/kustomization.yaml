@@ -7,7 +7,7 @@ patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
 resources:
-- ../../../base
+- ../../../base/fe
 images:
 - name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
   newTag: "prod"

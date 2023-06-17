@@ -18,6 +18,3 @@ spec:
           name: fe
           ports:
             - containerPort: 3000
-          envFrom:
-           - configMapRef:
-               name: cs-grad-thesis-config
