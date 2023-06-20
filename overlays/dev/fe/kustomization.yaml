@@ -12,4 +12,4 @@ images:
 - name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-be
   newTag: dev1
 - name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-fe
-  newTag: "1"
+  newTag: dev1
