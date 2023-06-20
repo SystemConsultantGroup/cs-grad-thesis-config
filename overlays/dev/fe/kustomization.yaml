@@ -11,5 +11,3 @@ resources:
 images:
 - name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-fe
   newTag: "1"
-- name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
-  newTag: dev0
