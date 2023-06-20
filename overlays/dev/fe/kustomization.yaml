@@ -10,6 +10,6 @@ resources:
 - ../../../base/fe
 images:
 - name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-be
-  newTag: dev0
+  newTag: dev1
 - name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-fe
   newTag: "1"
