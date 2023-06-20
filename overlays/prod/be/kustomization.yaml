@@ -9,6 +9,6 @@ patchesStrategicMerge:
 resources:
 - ../../../base/be
 images:
-- name: harbor.k8s.scg.skku.ac.kr/cs-grad-thesis-be
+- name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-be
   newTag: "prod"
 
