@@ -9,7 +9,5 @@ patchesStrategicMerge:
 resources:
 - ../../../base/fe
 images:
-- name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-be
-  newTag: dev1
-- name: harbor.k8s.scg.skku.ac.kr/library/cs-grad-thesis-fe
+- name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
   newTag: dev1
