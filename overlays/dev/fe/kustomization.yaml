@@ -11,3 +11,5 @@ resources:
 images:
 - name: registry.scg.skku.ac.kr/cs-grad-thesis-fe
   newTag: dev1
+- name: registry.scg.skku.ac.kr/library/cs-grad-thesis-fe
+  newTag: dev0
