@@ -5,12 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: be
-  replicas: 1
+      app.kubernetes.io/name: prod-be
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: be
+        app.kubernetes.io/name: prod-be
     spec:
       containers:
         - image: registry.scg.skku.ac.kr/cs-grad-thesis-be

@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: fe
+      app.kubernetes.io/name: dev-fe
   replicas: 1
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: fe
+        app.kubernetes.io/name: dev-fe
     spec:
       containers:
         - image: registry.scg.skku.ac.kr/cs-grad-thesis-fe
