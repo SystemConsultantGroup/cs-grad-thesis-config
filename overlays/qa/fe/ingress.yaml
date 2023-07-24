@@ -9,7 +9,7 @@ spec:
   tls:
     - hosts:
         - qa.cssys.scg.skku.ac.kr
-      secretName: cs-grad-thesis-tls
+      secretName: cs-grad-thesis-qa-tls
   rules:
     - host: qa.cssys.scg.skku.ac.kr
       http:
