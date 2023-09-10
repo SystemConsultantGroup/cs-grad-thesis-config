@@ -18,5 +18,5 @@ spec:
           ports:
             - containerPort: 8000
           envFrom:
-           - configMapRef:
-               name: cs-grad-thesis-config
+            - configMapRef:
+                name: cs-grad-thesis-prod-config
