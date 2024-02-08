@@ -8,6 +8,7 @@ patchesStrategicMerge:
 - service.yaml
 resources:
 - ../../../base/be
+- ../namespace.yaml
 images:
 - name: registry.scg.skku.ac.kr/cs-grad-thesis-be
   newTag: qa2
